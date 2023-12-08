@@ -7,32 +7,44 @@
 
 import SwiftUI
 
-struct Person{
-    let name:String
+
+class User:ObservableObject {
+    @Published var name:String
+    @Published var age:Int
+    
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
+}
+
+var user = User(name: "usef", age: 21)
+
+struct OtherView: View{
+
+    @ObservedObject var usr = user
+    
+    var body: some View{
+        Text(usr.name)
+    }
 }
 
 struct ContentView: View {
-    private let names = [Person(name: "usef"), Person(name: "khaled")]
-    @State private var selected = ""
-    @State private var enabled = false
     
+    @ObservedObject var myUser = user
+    @State public var showSheet = false
+
     var body: some View {
-        VStack{
-        
-            Form{
-                Picker("Select", selection: $selected, content: {
-                    ForEach(names, id: \.self.name){
-                        Text("\($0.name)")
-                    }
-                })
-                Toggle(isOn: $enabled) {
-                    Text("Allow Notifications")
-                }
-        
+           
+        VStack {
+            Text("Hello, \(user.name)").badge(4)
+            TextField("Enter a name", text: $myUser.name)
+            OtherView()
+            Button("Open Sheet"){
+                showSheet.toggle()
             }
-            
         }
-        
+           
     }
 }
 

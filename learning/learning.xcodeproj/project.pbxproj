@@ -14,6 +14,7 @@
 		A17851D22B1E52500082F4DD /* learningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17851D12B1E52500082F4DD /* learningTests.swift */; };
 		A17851DC2B1E52500082F4DD /* learningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17851DB2B1E52500082F4DD /* learningUITests.swift */; };
 		A17851DE2B1E52500082F4DD /* learningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17851DD2B1E52500082F4DD /* learningUITestsLaunchTests.swift */; };
+		A1A054802B1FA7B10090BE3A /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A0547F2B1FA7B10090BE3A /* MineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A17851D72B1E52500082F4DD /* learningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17851DB2B1E52500082F4DD /* learningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningUITests.swift; sourceTree = "<group>"; };
 		A17851DD2B1E52500082F4DD /* learningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1A0547F2B1FA7B10090BE3A /* MineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				A17851C02B1E524D0082F4DD /* learningApp.swift */,
 				A17851C22B1E524D0082F4DD /* ContentView.swift */,
+				A1A0547F2B1FA7B10090BE3A /* MineView.swift */,
 				A17851C42B1E524F0082F4DD /* Assets.xcassets */,
 				A17851C62B1E524F0082F4DD /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17851C32B1E524D0082F4DD /* ContentView.swift in Sources */,
+				A1A054802B1FA7B10090BE3A /* MineView.swift in Sources */,
 				A17851C12B1E524D0082F4DD /* learningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
