@@ -16,6 +16,10 @@
 		A15E51412B23041800917EC6 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E51402B23041800917EC6 /* DailyScrum.swift */; };
 		A15E51432B23098200917EC6 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E51422B23098200917EC6 /* TrailingIconLabelStyle.swift */; };
 		A15E51452B230C0F00917EC6 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15E51442B230C0F00917EC6 /* ScrumsView.swift */; };
+		A1E7073C2B238BD600EB82F3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7073B2B238BD600EB82F3 /* DetailView.swift */; };
+		A1E7073E2B2399C500EB82F3 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7073D2B2399C500EB82F3 /* DetailEditView.swift */; };
+		A1E707402B23A8A100EB82F3 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E7073F2B23A8A100EB82F3 /* ThemeView.swift */; };
+		A1E707422B23B53400EB82F3 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E707412B23B53400EB82F3 /* ThemePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		A15E51402B23041800917EC6 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		A15E51422B23098200917EC6 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		A15E51442B230C0F00917EC6 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		A1E7073B2B238BD600EB82F3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A1E7073D2B2399C500EB82F3 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		A1E7073F2B23A8A100EB82F3 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		A1E707412B23B53400EB82F3 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,9 @@
 				A15E512F2B22E5CD00917EC6 /* MettingView.swift */,
 				A15E513E2B23023E00917EC6 /* CardView.swift */,
 				A15E51442B230C0F00917EC6 /* ScrumsView.swift */,
+				A1E7073B2B238BD600EB82F3 /* DetailView.swift */,
+				A1E7073F2B23A8A100EB82F3 /* ThemeView.swift */,
+				A1E707412B23B53400EB82F3 /* ThemePicker.swift */,
 				A15E51422B23098200917EC6 /* TrailingIconLabelStyle.swift */,
 				A15E51312B22E5CF00917EC6 /* Assets.xcassets */,
 				A15E51332B22E5CF00917EC6 /* Preview Content */,
@@ -86,6 +97,7 @@
 			children = (
 				A15E513C2B22FE0800917EC6 /* Theme.swift */,
 				A15E51402B23041800917EC6 /* DailyScrum.swift */,
+				A1E7073D2B2399C500EB82F3 /* DetailEditView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,12 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E707422B23B53400EB82F3 /* ThemePicker.swift in Sources */,
 				A15E51412B23041800917EC6 /* DailyScrum.swift in Sources */,
+				A1E7073C2B238BD600EB82F3 /* DetailView.swift in Sources */,
+				A1E7073E2B2399C500EB82F3 /* DetailEditView.swift in Sources */,
 				A15E51432B23098200917EC6 /* TrailingIconLabelStyle.swift in Sources */,
 				A15E513D2B22FE0800917EC6 /* Theme.swift in Sources */,
 				A15E51452B230C0F00917EC6 /* ScrumsView.swift in Sources */,
 				A15E51302B22E5CD00917EC6 /* MettingView.swift in Sources */,
 				A15E513F2B23023E00917EC6 /* CardView.swift in Sources */,
+				A1E707402B23A8A100EB82F3 /* ThemeView.swift in Sources */,
 				A15E512E2B22E5CD00917EC6 /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
